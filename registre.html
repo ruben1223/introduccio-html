@@ -18,11 +18,37 @@
      <h1>Exercici, formulari de registre</h1>  
      <div>
      <form action="registre.html" method="GET">
-        <label for="usuari">Usuari:</label>
-        <input id="usuari" type="text" required>
+    <div>
+        <label for="nom">Nom:</label>
+        <input name="nom" id="nom" type="text" required>
+        <label for="llinatges">Llinatges:</label>
+        <input name="llinatges" id="llinatges" type="text" required>
+    </div>
+    <div>
+        <label for="radio-choice-1">Home:</label>
+        <input name="option" type="radio" id="radio-choice-1" value="choice-1">
+        <label for="radio-choice-2">Dona:</label>
+        <input name="option" type="radio" id="radio-choice-2" value="choice-2">
+        <label for="radio-choice-3">Altre:</label>
+        <input name="option" type="radio" id="radio-choice-3" value="choice-3">
+    </div>
+    <div>
+        <label for="E-mail">E-mail:</label>
+        <input name="E-mail" type="email" id="E-mail" placeholder="El teu mail" required>
         <label for="password">Password:</label>
-        <input id="password" type="password" required>
+        <input name="password" id="password" type="password" minlength="5" maxlength="10" required>
+    </div>
+    <div>
+        <label for="data de naixement">Data de naixement:</label>
+        <input name="data de naixement" id="data de naixement" type="date" required>
+    </div>
+    <div>
+        <label for="checkbox">Estic d´acord amb els termes i condicions</label>
+        <input name="checkbox" id="checkbox" type="checkbox" required>
+    </div>
+    <div>
         <button>Login</button>
+    </div>
      </form>
     </div>
 </body>
