@@ -37,3 +37,22 @@
     background-color: chocolate;
     color: darkmagenta;
 }
+
+.horari{
+    background-color: rgb(0, 0, 0);
+    color: rgb(0, 183, 255);
+}
+
+.hores{
+    background-color: tan;
+    color: slateblue;
+}
+
+.grupb{
+    background-color: tomato;
+    color: rgb(34, 235, 215);
+}
+
+.bordes{
+    background-color: seagreen;
+}
