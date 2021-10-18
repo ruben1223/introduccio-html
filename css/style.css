@@ -1,3 +1,39 @@
-thead{
+.web{
     background-color: red;
+    color: rgb(76, 0, 255);
+}
+
+.aplicacions{
+    background-color: red;
+    color: rgb(76, 0, 255);
+}
+
+.seguretat{
+    background-color: rgb(81, 255, 0);
+    color: rgb(255, 78, 78);
+}
+
+.serveis{
+    background-color: rgb(76, 0, 255);
+    color: rgb(251, 255, 0);
+}
+
+.eie{
+    background-color: salmon;
+    color: rgb(21, 250, 0);
+}
+
+.sistemes{
+    background-color: thistle;
+    color: sienna;
+}
+
+.pati{
+    background-color: yellow;
+    color: violet;
+}
+
+.dies{
+    background-color: chocolate;
+    color: darkmagenta;
 }
