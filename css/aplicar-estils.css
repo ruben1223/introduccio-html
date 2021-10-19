@@ -1,30 +1,30 @@
 /* dona al <body> element un color de fons de #bdc3c7*/
-.body{
+body{
     background-color: #bdc3c7;
 }
 
 /* fes que els <h1> siguin de color #9b59b6*/
-.h1{
+h1{
     color: #9b59b6;
 }
 
 /* fes que els <h2> siguin de color orange */
-.h2{
+h2{
     color: orange;
 }
 
 /* fes que els <li> siguin d'un blau hexadecimal */
-.li{
+li{
     color: blue;
 }
 
 /*canvia el color de fons de cada paràgraf a groc*/
-.p{
+p{
     background-color: yellow;
 }
 
 /*fes que tots els inputs tinguin un border de 3px vermell*/
-.input{
+input{
     border: 3px solid red;
 }
 
@@ -39,27 +39,27 @@
 }
 
 /*Fes que tots els <p>'s que estn dins un div tingin una font de 25px (font-size: 25px)*/
-.pdinsdiv{
+div p{
     font-size: 25px;
 }
 
 /*Fes que només els inputs de type text tenguin un fons gris*/
-#gris{
+input[type="text"]{
     background-color: grey;
 }
 
 /* Fes que els <p>'s dins el 3r <div> tinguin fons rosa*/
-.rosa{
+div:nth-of-type(3) p{
     background-color: pink;
 }
 
 /* Fes que el 2n <p> dins el  3r  <div> tingui un border de 5px blanc*/
-#borde{
+div:nth-of-type(3) p:nth-of-type(2){
     border: 5px solid white;
 }
 
 /* Fen que l'element <em> del 3r <div> sigui blanc amb una font de 20px (font-size:20px)*/
-.em{
+em{
     color: white;
     font-size: 20px;
 }
@@ -75,7 +75,7 @@
 
 
 /*Fes que la primera lletra de l'element amb id 'special' sigui verda i amb font de 100px font size(font-size: 100)*/
-.s{
+#special::first-letter{
     color: green;
     font-size: 100px;
 }
