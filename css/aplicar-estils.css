@@ -69,10 +69,14 @@ em{
 /*hauràs de fer recerca*/
 
 /*Fes que tots el "checked" checkboxes tinguin un marge esquerra de 50px(margin-left: 50px)*/
-
+input:checked{
+    margin-left: 50px;
+}
 
 /*Fes que l'etiqueta <label> siguin tots UPPERCASE sense canviar el HTML*/
-
+label{
+    text-transform: uppercase;
+}
 
 /*Fes que la primera lletra de l'element amb id 'special' sigui verda i amb font de 100px font size(font-size: 100)*/
 #special::first-letter{
@@ -81,6 +85,11 @@ em{
 }
 
 /*Fes que el color de font del <h1> canviï a blau quan el ratolí passi per damuntelement's color change to blue when hovered over */
-
+h1:hover{
+    color: blue;
+}
 
 /*Fes que els <a> que hagin estat visitats siguin de color gris */
+a:visited{
+    color: gray;
+}
