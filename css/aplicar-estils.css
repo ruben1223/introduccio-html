@@ -25,9 +25,7 @@
 
 /*fes que tots els inputs tinguin un border de 3px vermell*/
 .input{
-    border: red;
-    border-width: 3px;
-    border-style: solid;
+    border: 3px solid red;
 }
 
 /* fes que tot el que té class 'hello' sigui de fons blanc */
@@ -37,9 +35,7 @@
 
 /* fes que l'elemnt amb id  'special' tingui un border 2px solid blau selecciona el teu propi rgb blau*/
 #special{
-    border: blue;
-    border-width: 2px;
-    border-style: solid;
+    border: 2px solid blue;
 }
 
 /*Fes que tots els <p>'s que estn dins un div tingin una font de 25px (font-size: 25px)*/
@@ -59,13 +55,14 @@
 
 /* Fes que el 2n <p> dins el  3r  <div> tingui un border de 5px blanc*/
 #borde{
-    border: white;
-    border-width: 5px;
-    border-style: solid;
+    border: 5px solid white;
 }
 
 /* Fen que l'element <em> del 3r <div> sigui blanc amb una font de 20px (font-size:20px)*/
-
+.em{
+    color: white;
+    font-size: 20px;
+}
 
 
 /*BONUS*/
