@@ -2,12 +2,21 @@ h1{
     text-align: center;
 }
 
-.borde1{
-    border: 5px solid black;
-    border-top: none;
-    border-right: none;
+td{
+    width: 100px;
+    height: 100px;
 }
 
-.borde2{
-    border: 5px solid black
+.all{
+   border: 1px solid black;
+}
+
+.top-bot{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.left-right{
+    border-right: 1px solid black;
+    border-left: 1px solid black;
 }
