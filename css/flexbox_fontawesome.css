@@ -1,12 +1,24 @@
-div:hover{
-    background-color: blue;
-}
+
 
 .menu{
     display: flex;
     flex-direction: row;
+    width: 50%;
+    margin: 0 auto;
+    background-color: blueviolet;
+    justify-content: space-around;
+    padding: 10px 0;
 }
-.tamanos{
-    min-width: 50px;
-    min-height: 50px;
+
+.menu div{
+    background-color: red;
+    text-align: center;
+    min-width: 10%;
+    max-width: 15%;
+    padding: 10px 0;
+}
+
+.menu div:hover{
+    background-color: blue;
+    cursor: pointer;
 }
