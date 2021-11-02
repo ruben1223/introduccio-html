@@ -1,0 +1,12 @@
+div:hover{
+    background-color: blue;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+}
+.tamanos{
+    min-width: 50px;
+    min-height: 50px;
+}
