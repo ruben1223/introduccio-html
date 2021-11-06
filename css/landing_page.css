@@ -1,5 +1,76 @@
+:root{
+    --primary-color: red;
+}
+
 *{
     margin: 0;
     padding: 0;
 }
 
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    line-height: 1.5;
+    color: var(--primary-color);
+}
+
+#showcase{
+    background-image: url(../img/foto_crypto.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3em;
+}
+
+#showcase::after{
+    content:"";
+    position:absolute;
+    top:0px;
+    left:0px;
+    background-color:rgba(0,0,0,0.6);
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+h1, p, a{
+    z-index: 2;
+}
+
+a{
+    background-color: var(--primary-color);
+    text-decoration: none;
+    padding: 3px;
+    color: green;
+    border-radius: 8px;
+}
+
+a:hover{
+    color: var(--primary-color);
+    background-color: green;
+}
+
+#section-a{
+    text-align: center;
+}
+
+.fonsred{
+    background-color: var(--primary-color);
+    color:blue;
+}
+
+#section-b{
+    background-color: #f4f4f4;
+}
+
+#section-c{
+    display: flex;
+}
+
+div{
+    padding: 20px;
+}
