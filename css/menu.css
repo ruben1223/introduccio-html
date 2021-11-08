@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    background-color: chocolate;
+    width: 100%;
+}
+
+nav{
+    width: 75%;
+    margin: 0 auto;
+}
+
+nav ul{
+    display: table;
+    width: 100%;
+}
+
+nav ul li{
+    display: table-cell;
+    width: 25%;
+    line-height: 35px;
+    height: 5vh;
+}
+
+nav ul li a{
+    display: block;
+    text-align: center;
+    height: 100%;
+}
+
+nav ul li a:hover{
+    background-color: violet;
+    color: white;
+    height: 100%;
+}
+
+.active{
+    background-color: red;
+}
