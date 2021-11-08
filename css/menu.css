@@ -29,7 +29,6 @@ nav ul{
 nav ul li{
     display: table-cell;
     width: 25%;
-    line-height: 35px;
     height: 5vh;
 }
 
