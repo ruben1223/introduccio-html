@@ -1,5 +1,5 @@
 :root{
-    --primary-color: red;
+    --primary-color: #9d0208;
 }
 
 *{
@@ -60,7 +60,7 @@ a:hover{
 
 .fonsred{
     background-color: var(--primary-color);
-    color:blue;
+    color:#f48c06;
 }
 
 #section-b{
