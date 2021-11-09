@@ -3,6 +3,7 @@
     --hover-color: #883726;
     --font-color: #ffffff;
     --active-color: #f15637;
+    --rata-margin: 5px;
 }
 
 *{
@@ -70,4 +71,9 @@ nav ul li a:hover{
         display: list-item;
         width: 100%;
     }
+}
+
+.rata{
+    margin: var(--rata-margin);
+    list-style: auto;
 }
