@@ -12,3 +12,24 @@ img{
     width: 30%;
     padding: 1%;
 }
+
+@media screen and (max-width: 800px) {
+    img{
+        width: 45%;
+        margin: 1%;
+    }
+    .nom{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    img{
+        width: 98%;
+        margin: 1%;
+    }
+
+    .nom{
+        width: 52%;
+    }
+}
